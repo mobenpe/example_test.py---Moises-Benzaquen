@@ -1,0 +1,22 @@
+def setup_network(self):
+        """Setup the test network topology"""
+        
+def run_test(self):
+        """Main test logic"""
+
+self.log.info("Starting test!")
+        """Let the user know the test has starte"""
+
+self.sync_all(self.nodes)
+        """Sync all nodes for the test (1,2)"""
+   
+self.nodes[1].generate(1)
+        """Generating 1 block from node 1""
+
+self.log.info("Wait for node 2 to receive all the blocks from node 1")
+
+self.sync_blocks()
+        """Sync nodes""" 
+
+assert_equal(self.nodes[1].getbestblockhash(), self.nodes[2].getbestblockhash())
+"""To check the match between node 1 hash and node 2 hash is the same, even though Sync nodes should do it"""
