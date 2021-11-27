@@ -1,0 +1,982 @@
+"""1. Compile Bitcoin Core"""
+
+"""2. Run the unit"""
+
+
+
+
+
+mobenpe@DESKTOP-UT2V1SL:/mnt/c/Windows/system32/bitcoin$ make check
+Making check in src
+make[1]: Entering directory '/mnt/c/Windows/system32/bitcoin/src'
+make[2]: Entering directory '/mnt/c/Windows/system32/bitcoin/src'
+make[3]: Entering directory '/mnt/c/Windows/system32/bitcoin'
+make[3]: Leaving directory '/mnt/c/Windows/system32/bitcoin'
+make  check-TESTS check-local
+make[3]: Entering directory '/mnt/c/Windows/system32/bitcoin/src'
+make[4]: Entering directory '/mnt/c/Windows/system32/bitcoin/src'
+PASS: minisketch/test
+PASS: univalue/test/object
+PASS: univalue/test/unitester
+PASS: univalue/test/no_nul
+make[5]: Entering directory '/mnt/c/Windows/system32/bitcoin'
+make[5]: Leaving directory '/mnt/c/Windows/system32/bitcoin'
+PASS: qt/test/test_bitcoin-qt
+============================================================================
+Testsuite summary for Bitcoin Core 22.99.0
+============================================================================
+# TOTAL: 5
+# PASS:  5
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/mnt/c/Windows/system32/bitcoin/src'
+Running tests: addrman_tests from test/addrman_tests.cpp
+Running tests: allocator_tests from test/allocator_tests.cpp
+Running tests: amount_tests from test/amount_tests.cpp
+Running tests: arith_uint256_tests from test/arith_uint256_tests.cpp
+Running tests: base32_tests from test/base32_tests.cpp
+Running tests: base58_tests from test/base58_tests.cpp
+Running tests: base64_tests from test/base64_tests.cpp
+Running tests: bech32_tests from test/bech32_tests.cpp
+Running tests: bip32_tests from test/bip32_tests.cpp
+Running tests: blockchain_tests from test/blockchain_tests.cpp
+Running tests: blockencodings_tests from test/blockencodings_tests.cpp
+Running tests: blockfilter_index_tests from test/blockfilter_index_tests.cpp
+Running tests: blockfilter_tests from test/blockfilter_tests.cpp
+Running tests: bloom_tests from test/bloom_tests.cpp
+Running tests: bswap_tests from test/bswap_tests.cpp
+Running tests: checkqueue_tests from test/checkqueue_tests.cpp
+Running tests: coins_tests from test/coins_tests.cpp
+Running tests: coinstatsindex_tests from test/coinstatsindex_tests.cpp
+Running tests: compilerbug_tests from test/compilerbug_tests.cpp
+Running tests: compress_tests from test/compress_tests.cpp
+Running tests: crypto_tests from test/crypto_tests.cpp
+Running tests: cuckoocache_tests from test/cuckoocache_tests.cpp
+Running tests: dbwrapper_tests from test/dbwrapper_tests.cpp
+Running tests: denialofservice_tests from test/denialofservice_tests.cpp
+Running tests: descriptor_tests from test/descriptor_tests.cpp
+Running tests: flatfile_tests from test/flatfile_tests.cpp
+Running tests: fs_tests from test/fs_tests.cpp
+Running tests: getarg_tests from test/getarg_tests.cpp
+Running tests: hash_tests from test/hash_tests.cpp
+Running tests: i2p_tests from test/i2p_tests.cpp
+Running tests: interfaces_tests from test/interfaces_tests.cpp
+Running tests: key_io_tests from test/key_io_tests.cpp
+Running tests: key_tests from test/key_tests.cpp
+Running tests: logging_tests from test/logging_tests.cpp
+Running tests: mempool_tests from test/mempool_tests.cpp
+Running tests: merkle_tests from test/merkle_tests.cpp
+Running tests: merkleblock_tests from test/merkleblock_tests.cpp
+Running tests: miner_tests from test/miner_tests.cpp
+Running tests: minisketch_tests from test/minisketch_tests.cpp
+Running tests: multisig_tests from test/multisig_tests.cpp
+Running tests: net_peer_eviction_tests from test/net_peer_eviction_tests.cpp
+Running tests: net_tests from test/net_tests.cpp
+Running tests: netbase_tests from test/netbase_tests.cpp
+Running tests: pmt_tests from test/pmt_tests.cpp
+Running tests: policy_fee_tests from test/policy_fee_tests.cpp
+Running tests: policyestimator_tests from test/policyestimator_tests.cpp
+Running tests: pow_tests from test/pow_tests.cpp
+Running tests: prevector_tests from test/prevector_tests.cpp
+Running tests: raii_event_tests from test/raii_event_tests.cpp
+Running tests: random_tests from test/random_tests.cpp
+Running tests: reverselock_tests from test/reverselock_tests.cpp
+Running tests: rpc_tests from test/rpc_tests.cpp
+Running tests: sanity_tests from test/sanity_tests.cpp
+Running tests: scheduler_tests from test/scheduler_tests.cpp
+Running tests: script_p2sh_tests from test/script_p2sh_tests.cpp
+Running tests: script_parse_tests from test/script_parse_tests.cpp
+Running tests: script_standard_tests from test/script_standard_tests.cpp
+Running tests: script_tests from test/script_tests.cpp
+Running tests: scriptnum_tests from test/scriptnum_tests.cpp
+Running tests: serfloat_tests from test/serfloat_tests.cpp
+Running tests: serialize_tests from test/serialize_tests.cpp
+Running tests: settings_tests from test/settings_tests.cpp
+Running tests: sighash_tests from test/sighash_tests.cpp
+Running tests: sigopcount_tests from test/sigopcount_tests.cpp
+Running tests: skiplist_tests from test/skiplist_tests.cpp
+Running tests: sock_tests from test/sock_tests.cpp
+Running tests: streams_tests from test/streams_tests.cpp
+Running tests: sync_tests from test/sync_tests.cpp
+Running tests: system_tests from test/system_tests.cpp
+Running tests: timedata_tests from test/timedata_tests.cpp
+Running tests: torcontrol_tests from test/torcontrol_tests.cpp
+Running tests: transaction_tests from test/transaction_tests.cpp
+Running tests: txindex_tests from test/txindex_tests.cpp
+Running tests: txpackage_tests from test/txpackage_tests.cpp
+Running tests: txrequest_tests from test/txrequest_tests.cpp
+Running tests: txvalidation_tests from test/txvalidation_tests.cpp
+Running tests: txvalidationcache_tests from test/txvalidationcache_tests.cpp
+Running tests: uint256_tests from test/uint256_tests.cpp
+Running tests: util_tests from test/util_tests.cpp
+Running tests: util_threadnames_tests from test/util_threadnames_tests.cpp
+Running tests: validation_block_tests from test/validation_block_tests.cpp
+Running tests: validation_chainstate_tests from test/validation_chainstate_tests.cpp
+Running tests: validation_chainstatemanager_tests from test/validation_chainstatemanager_tests.cpp
+Running tests: validation_flush_tests from test/validation_flush_tests.cpp
+Running tests: validation_tests from test/validation_tests.cpp
+Running tests: validationinterface_tests from test/validationinterface_tests.cpp
+Running tests: versionbits_tests from test/versionbits_tests.cpp
+Running tests: psbt_wallet_tests from wallet/test/psbt_wallet_tests.cpp
+Running tests: spend_tests from wallet/test/spend_tests.cpp
+Running tests: wallet_tests from wallet/test/wallet_tests.cpp
+Running tests: walletdb_tests from wallet/test/walletdb_tests.cpp
+Running tests: wallet_crypto_tests from wallet/test/wallet_crypto_tests.cpp
+Running tests: coinselector_tests from wallet/test/coinselector_tests.cpp
+Running tests: init_tests from wallet/test/init_tests.cpp
+Running tests: ismine_tests from wallet/test/ismine_tests.cpp
+Running tests: scriptpubkeyman_tests from wallet/test/scriptpubkeyman_tests.cpp
+Running test/util/test_runner.py...
+/usr/bin/python3.8 ../test/util/test_runner.py
+Running test/util/rpcauth-test.py...
+/usr/bin/python3.8 ../test/util/rpcauth-test.py
+...
+----------------------------------------------------------------------
+Ran 3 tests in 1.441s
+
+OK
+Running bench/bench_bitcoin ...
+bench/bench_bitcoin > /dev/null
+make[4]: Entering directory '/mnt/c/Windows/system32/bitcoin/src/secp256k1'
+  CC       src/tests-tests.o
+  CCLD     tests
+  CC       src/exhaustive_tests-tests_exhaustive.o
+  CCLD     exhaustive_tests
+make  check-TESTS
+make[5]: Entering directory '/mnt/c/Windows/system32/bitcoin/src/secp256k1'
+make[6]: Entering directory '/mnt/c/Windows/system32/bitcoin/src/secp256k1'
+PASS: tests
+PASS: exhaustive_tests
+============================================================================
+Testsuite summary for libsecp256k1 0.1
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[6]: Leaving directory '/mnt/c/Windows/system32/bitcoin/src/secp256k1'
+make[5]: Leaving directory '/mnt/c/Windows/system32/bitcoin/src/secp256k1'
+make[4]: Leaving directory '/mnt/c/Windows/system32/bitcoin/src/secp256k1'
+make[3]: Leaving directory '/mnt/c/Windows/system32/bitcoin/src'
+make[2]: Leaving directory '/mnt/c/Windows/system32/bitcoin/src'
+make[1]: Leaving directory '/mnt/c/Windows/system32/bitcoin/src'
+Making check in doc/man
+make[1]: Entering directory '/mnt/c/Windows/system32/bitcoin/doc/man'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/mnt/c/Windows/system32/bitcoin/doc/man'
+make[1]: Entering directory '/mnt/c/Windows/system32/bitcoin'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/mnt/c/Windows/system32/bitcoin'
+
+
+
+
+
+
+
+"""functional tests"""
+"""Run all possible tests with test/functional/test_runner.py --extended"""
+
+
+
+
+
+
+
+mobenpe@DESKTOP-UT2V1SL:/mnt/c/Windows/system32/bitcoin$ test/functional/test_runner.py --extended
+Temporary test directory at /tmp/test_runner_₿_🏃_20211126_120440
+Running Unit Tests for Test Framework Modules
+..........
+----------------------------------------------------------------------
+Ran 10 tests in 1.408s
+
+OK
+1/226 - wallet_hd.py --legacy-wallet skipped
+2/226 - wallet_backup.py --legacy-wallet skipped
+.............................................................                                                             3/226 - wallet_hd.py --descriptors passed, Duration: 35 s
+.............................................................                                                             4/226 - wallet_backup.py --descriptors passed, Duration: 91 s..........................................................................................................................                                                                                                                          5/226 - mining_getblocktemplate_longpoll.py passed, Duration: 141 s
+6/226 - feature_maxuploadtarget.py passed, Duration: 92 s
+7/226 - rpc_fundrawtransaction.py --legacy-wallet skipped
+..........................................................................................................................                                                                                                                          8/226 - rpc_fundrawtransaction.py --descriptors passed, Duration: 74 s
+....................................................................................................................................................................................................................................................                                                                                                                                                                                                                                                    9/226 - p2p_compactblocks.py passed, Duration: 126 s
+.............................................................                                                             10/226 - feature_block.py passed, Duration: 251 s
+.............................................................                                                             11/226 - p2p_compactblocks_blocksonly.py passed, Duration: 97 s
+12/226 - feature_segwit.py --legacy-wallet skipped
+13/226 - wallet_basic.py --legacy-wallet skipped
+.............................................................                                                             14/226 - feature_segwit.py --descriptors passed, Duration: 59 s
+15/226 - wallet_labels.py --legacy-wallet skipped
+16/226 - wallet_labels.py --descriptors passed, Duration: 15 s
+.......................................................................................................................................................................................                                                                                                                                                                                       17/226 - wallet_basic.py --descriptors passed, Duration: 165 s
+18/226 - p2p_segwit.py passed, Duration: 113 s
+19/226 - p2p_timeouts.py passed, Duration: 24 s
+.............................................................                                                             20/226 - mempool_updatefromblock.py passed, Duration: 41 s
+21/226 - feature_pruning.py passed, Duration: 732 s
+22/226 - wallet_dump.py --legacy-wallet skipped
+23/226 - feature_taproot.py --previous_release skipped
+24/226 - rpc_signer.py passed, Duration: 18 s
+25/226 - wallet_signer.py --descriptors passed, Duration: 19 s
+26/226 - p2p_tx_download.py passed, Duration: 121 s
+27/226 - wallet_importmulti.py --legacy-wallet skipped
+28/226 - p2p_sendheaders.py passed, Duration: 30 s
+29/226 - mempool_limit.py passed, Duration: 19 s
+30/226 - rpc_txoutproof.py passed, Duration: 14 s
+31/226 - wallet_listreceivedby.py --legacy-wallet skipped
+32/226 - wallet_abandonconflict.py --legacy-wallet skipped
+.............................................................                                                             33/226 - feature_taproot.py passed, Duration: 139 s
+34/226 - wallet_listreceivedby.py --descriptors passed, Duration: 61 s
+35/226 - p2p_dns_seeds.py passed, Duration: 85 s
+36/226 - wallet_address_types.py --legacy-wallet skipped
+37/226 - feature_csv_activation.py passed, Duration: 27 s
+38/226 - wallet_abandonconflict.py --descriptors passed, Duration: 53 s
+39/226 - feature_bip68_sequence.py passed, Duration: 32 s
+40/226 - wallet_address_types.py --descriptors passed, Duration: 40 s
+41/226 - p2p_feefilter.py passed, Duration: 43 s
+42/226 - wallet_keypool_topup.py --legacy-wallet skipped
+43/226 - feature_reindex.py passed, Duration: 39 s
+44/226 - feature_abortnode.py passed, Duration: 51 s
+45/226 - wallet_keypool_topup.py --descriptors passed, Duration: 52 s
+46/226 - rpc_invalid_address_message.py passed, Duration: 16 s
+.............................................................                                                             47/226 - interface_bitcoin_cli.py failed, Duration: 35 s
+
+stdout:
+2021-11-26T11:22:15.471000Z TestFramework (INFO): Initializing test directory /tmp/test_runner_₿_🏃_20211126_120440/interface_bitcoin_cli_176
+2021-11-26T11:22:20.285000Z TestFramework (INFO): Compare responses from getblockchaininfo RPC and `bitcoin-cli getblockchaininfo`
+2021-11-26T11:22:20.356000Z TestFramework (INFO): Test -stdinrpcpass option
+2021-11-26T11:22:20.939000Z TestFramework (INFO): Test -stdin and -stdinrpcpass
+2021-11-26T11:22:21.317000Z TestFramework (INFO): Test connecting to a non-existing server
+2021-11-26T11:22:21.430000Z TestFramework (INFO): Test connecting with non-existing RPC cookie file
+2021-11-26T11:22:21.761000Z TestFramework (INFO): Test -getinfo with arguments fails
+2021-11-26T11:22:22.059000Z TestFramework (INFO): Test -getinfo with -color=never does not return ANSI escape codes
+2021-11-26T11:22:22.144000Z TestFramework (INFO): Test -getinfo with -color=always returns ANSI escape codes
+2021-11-26T11:22:22.243000Z TestFramework (INFO): Test -getinfo with invalid value for -color option
+2021-11-26T11:22:22.309000Z TestFramework (INFO): Test -getinfo returns expected network and blockchain info
+2021-11-26T11:22:22.997000Z TestFramework (INFO): Test -getinfo and bitcoin-cli return all proxies
+2021-11-26T11:22:35.866000Z TestFramework (INFO): Test -getinfo and bitcoin-cli getwalletinfo return expected wallet info
+2021-11-26T11:22:39.437000Z TestFramework (INFO): Test -getinfo with multiple wallets and -rpcwallet returns specified wallet balance
+2021-11-26T11:22:39.482000Z TestFramework (ERROR): Assertion failed
+Traceback (most recent call last):
+  File "/mnt/c/Windows/system32/bitcoin/test/functional/test_framework/test_framework.py", line 132, in main
+    self.run_test()
+  File "/mnt/c/Windows/system32/bitcoin/test/functional/interface_bitcoin_cli.py", line 176, in run_test
+    assert_equal(Decimal(cli_get_info['Balance']), amounts[i])
+  File "/mnt/c/Windows/system32/bitcoin/test/functional/test_framework/util.py", line 50, in assert_equal
+    raise AssertionError("not(%s)" % " == ".join(str(arg) for arg in (thing1, thing2) + args))
+AssertionError: not(59.99992540 == 59.999928)
+2021-11-26T11:22:41.464000Z TestFramework (INFO): Stopping nodes
+2021-11-26T11:22:47.149000Z TestFramework (WARNING): Not cleaning up dir /tmp/test_runner_₿_🏃_20211126_120440/interface_bitcoin_cli_176
+2021-11-26T11:22:47.149000Z TestFramework (ERROR): Test failed. Test logging available at /tmp/test_runner_₿_🏃_20211126_120440/interface_bitcoin_cli_176/test_framework.log
+2021-11-26T11:22:47.149000Z TestFramework (ERROR):
+2021-11-26T11:22:47.158000Z TestFramework (ERROR): Hint: Call /mnt/c/Windows/system32/bitcoin/test/functional/combine_logs.py '/tmp/test_runner_₿_🏃_20211126_120440/interface_bitcoin_cli_176' to consolidate all logs
+2021-11-26T11:22:47.158000Z TestFramework (ERROR):
+2021-11-26T11:22:47.158000Z TestFramework (ERROR): If this failure happened unexpectedly or intermittently, please file a bug and provide a link or upload of the combined log.
+2021-11-26T11:22:47.158000Z TestFramework (ERROR): https://github.com/bitcoin/bitcoin/issues
+2021-11-26T11:22:47.158000Z TestFramework (ERROR):
+
+
+stderr:
+
+
+48/226 - feature_bind_extra.py passed, Duration: 20 s
+49/226 - mempool_resurrect.py passed, Duration: 10 s
+50/226 - interface_zmq.py passed, Duration: 113 s
+51/226 - tool_wallet.py --legacy-wallet skipped
+52/226 - wallet_txn_doublespend.py --mineblock passed, Duration: 29 s
+53/226 - feature_fee_estimation.py passed, Duration: 162 s
+54/226 - wallet_txn_clone.py passed, Duration: 29 s
+55/226 - wallet_txn_clone.py --segwit passed, Duration: 33 s
+56/226 - rpc_getchaintips.py passed, Duration: 25 s
+.............................................................                                                             57/226 - interface_rest.py passed, Duration: 34 s
+58/226 - rpc_misc.py passed, Duration: 49 s
+59/226 - wallet_avoidreuse.py --legacy-wallet skipped
+60/226 - mempool_spend_coinbase.py passed, Duration: 16 s
+61/226 - mempool_reorg.py passed, Duration: 25 s
+.............................................................                                                             62/226 - wallet_avoidreuse.py --descriptors passed, Duration: 74 s
+63/226 - wallet_multiwallet.py --legacy-wallet skipped
+64/226 - tool_wallet.py --descriptors passed, Duration: 199 s.............................................................                                                             65/226 - mempool_persist.py passed, Duration: 87 s
+66/226 - wallet_createwallet.py --legacy-wallet skipped
+.............................................................                                                             67/226 - wallet_createwallet.py --usecli passed, Duration: 49 s
+68/226 - wallet_createwallet.py --descriptors passed, Duration: 22 s
+69/226 - wallet_listtransactions.py --legacy-wallet skipped
+70/226 - wallet_multiwallet.py --usecli passed, Duration: 140 s
+71/226 - wallet_watchonly.py --legacy-wallet skipped
+72/226 - wallet_watchonly.py --usecli --legacy-wallet skipped73/226 - wallet_listtransactions.py --descriptors passed, Duration: 26 s
+74/226 - interface_http.py passed, Duration: 14 s
+75/226 - wallet_multiwallet.py --descriptors passed, Duration: 170 s
+76/226 - rpc_psbt.py --legacy-wallet skipped
+77/226 - interface_rpc.py passed, Duration: 21 s
+78/226 - wallet_reorgsrestore.py passed, Duration: 45 s
+79/226 - rpc_whitelist.py passed, Duration: 16 s
+80/226 - rpc_users.py passed, Duration: 39 s
+81/226 - feature_proxy.py passed, Duration: 16 s
+82/226 - rpc_signrawtransaction.py --legacy-wallet skipped
+83/226 - feature_syscall_sandbox.py passed, Duration: 5 s
+84/226 - rpc_rawtransaction.py --legacy-wallet skipped
+85/226 - rpc_signrawtransaction.py --descriptors passed, Duration: 15 s
+86/226 - wallet_groups.py --legacy-wallet skipped
+87/226 - rpc_psbt.py --descriptors passed, Duration: 67 s
+88/226 - rpc_rawtransaction.py --descriptors passed, Duration: 25 s
+89/226 - p2p_addrv2_relay.py passed, Duration: 9 s
+90/226 - wallet_transactiontime_rescan.py failed, Duration: 34 s
+
+stdout:
+2021-11-26T11:30:46.793000Z TestFramework (INFO): Initializing test directory /tmp/test_runner_₿_🏃_20211126_120440/wallet_transactiontime_rescan_136
+2021-11-26T11:30:56.601000Z TestFramework (INFO): Prepare nodes and wallet
+2021-11-26T11:30:58.525000Z TestFramework (INFO): Start transactions
+2021-11-26T11:30:59.961000Z TestFramework (INFO): Send 10 btc to user
+2021-11-26T11:31:07.482000Z TestFramework (INFO): Send 5 btc to user
+2021-11-26T11:31:10.483000Z TestFramework (INFO): Send 1 btc to user
+2021-11-26T11:31:14.619000Z TestFramework (INFO): Check user's final balance and transaction count
+2021-11-26T11:31:14.621000Z TestFramework (INFO): Check transaction times
+2021-11-26T11:31:14.622000Z TestFramework (INFO): Restore user wallet on another node without rescan
+2021-11-26T11:31:15.280000Z TestFramework (ERROR): Assertion failed
+Traceback (most recent call last):
+  File "/mnt/c/Windows/system32/bitcoin/test/functional/test_framework/test_framework.py", line 132, in main
+    self.run_test()
+  File "/mnt/c/Windows/system32/bitcoin/test/functional/wallet_transactiontime_rescan.py", line 134, in run_test
+    assert_equal(restorewo_wallet.getbalance(), 0)
+  File "/mnt/c/Windows/system32/bitcoin/test/functional/test_framework/util.py", line 50, in assert_equal
+    raise AssertionError("not(%s)" % " == ".join(str(arg) for arg in (thing1, thing2) + args))
+AssertionError: not(1.00000000 == 0)
+2021-11-26T11:31:15.354000Z TestFramework (INFO): Stopping nodes
+2021-11-26T11:31:19.773000Z TestFramework (WARNING): Not cleaning up dir /tmp/test_runner_₿_🏃_20211126_120440/wallet_transactiontime_rescan_136
+2021-11-26T11:31:19.773000Z TestFramework (ERROR): Test failed. Test logging available at /tmp/test_runner_₿_🏃_20211126_120440/wallet_transactiontime_rescan_136/test_framework.log
+2021-11-26T11:31:19.773000Z TestFramework (ERROR):
+2021-11-26T11:31:19.780000Z TestFramework (ERROR): Hint: Call /mnt/c/Windows/system32/bitcoin/test/functional/combine_logs.py '/tmp/test_runner_₿_🏃_20211126_120440/wallet_transactiontime_rescan_136' to consolidate all logs
+2021-11-26T11:31:19.780000Z TestFramework (ERROR):
+2021-11-26T11:31:19.780000Z TestFramework (ERROR): If this failure happened unexpectedly or intermittently, please file a bug and provide a link or upload of the combined log.
+2021-11-26T11:31:19.780000Z TestFramework (ERROR): https://github.com/bitcoin/bitcoin/issues
+2021-11-26T11:31:19.780000Z TestFramework (ERROR):
+
+
+stderr:
+
+
+91/226 - p2p_compactblocks_hb.py passed, Duration: 25 s
+92/226 - rpc_decodescript.py passed, Duration: 10 s
+93/226 - p2p_disconnect_ban.py passed, Duration: 24 s
+94/226 - rpc_deprecated.py passed, Duration: 13 s
+95/226 - wallet_disable.py --legacy-wallet passed, Duration: 9 s
+96/226 - wallet_disable.py --descriptors passed, Duration: 9 s
+97/226 - rpc_blockchain.py passed, Duration: 51 s
+98/226 - p2p_addr_relay.py passed, Duration: 33 s
+99/226 - wallet_groups.py --descriptors passed, Duration: 112 s
+100/226 - p2p_getaddr_caching.py passed, Duration: 24 s
+101/226 - p2p_getdata.py passed, Duration: 9 s
+102/226 - p2p_addrfetch.py passed, Duration: 9 s
+103/226 - wallet_keypool.py --legacy-wallet skipped
+104/226 - wallet_keypool.py --descriptors passed, Duration: 16 s
+105/226 - rpc_net.py passed, Duration: 32 s
+106/226 - wallet_descriptor.py --descriptors passed, Duration: 23 s
+107/226 - p2p_nobloomfilter_messages.py passed, Duration: 10 s
+108/226 - p2p_filter.py passed, Duration: 18 s
+109/226 - mining_prioritisetransaction.py passed, Duration: 14 s
+110/226 - p2p_blocksonly.py passed, Duration: 37 s
+111/226 - p2p_invalid_locator.py passed, Duration: 10 s
+112/226 - rpc_setban.py passed, Duration: 45 s
+113/226 - p2p_invalid_block.py passed, Duration: 9 s
+114/226 - p2p_invalid_tx.py passed, Duration: 14 s
+115/226 - p2p_invalid_messages.py passed, Duration: 25 s
+116/226 - wallet_txn_doublespend.py --legacy-wallet skipped
+117/226 - example_test.py passed, Duration: 14 s
+118/226 - feature_assumevalid.py passed, Duration: 31 s
+119/226 - feature_backwards_compatibility.py --legacy-wallet skipped
+120/226 - feature_backwards_compatibility.py --descriptors skipped
+121/226 - wallet_multisig_descriptor_psbt.py passed, Duration: 22 s
+122/226 - wallet_txn_doublespend.py --descriptors passed, Duration: 20 s
+123/226 - wallet_txn_clone.py --mineblock passed, Duration: 22 s
+124/226 - feature_notifications.py passed, Duration: 24 s
+125/226 - rpc_invalidateblock.py passed, Duration: 12 s
+126/226 - rpc_getblockfilter.py passed, Duration: 26 s
+127/226 - feature_utxo_set_hash.py passed, Duration: 14 s
+128/226 - feature_rbf.py failed, Duration: 13 s
+
+stdout:
+2021-11-26T11:35:20.295000Z TestFramework (INFO): Initializing test directory /tmp/test_runner_₿_🏃_20211126_120440/feature_rbf_97
+2021-11-26T11:35:26.146000Z TestFramework (INFO): Running test simple doublespend...
+2021-11-26T11:35:26.154000Z TestFramework (INFO): Running test doublespend chain...
+2021-11-26T11:35:26.234000Z TestFramework (INFO): Running test doublespend tree...
+2021-11-26T11:35:27.304000Z TestFramework (INFO): Running test replacement feeperkb...
+2021-11-26T11:35:27.431000Z TestFramework (INFO): Running test spends of conflicting outputs...
+2021-11-26T11:35:27.456000Z TestFramework (INFO): Running test new unconfirmed inputs...
+2021-11-26T11:35:27.471000Z TestFramework (INFO): Running test too many replacements...
+2021-11-26T11:35:27.696000Z TestFramework (INFO): Running test opt-in...
+2021-11-26T11:35:27.730000Z TestFramework (INFO): Running test RPC...
+2021-11-26T11:35:28.781000Z TestFramework (ERROR): JSONRPC error
+Traceback (most recent call last):
+  File "/mnt/c/Windows/system32/bitcoin/test/functional/test_framework/test_framework.py", line 132, in main
+    self.run_test()
+  File "/mnt/c/Windows/system32/bitcoin/test/functional/feature_rbf.py", line 79, in run_test
+    self.test_rpc()
+  File "/mnt/c/Windows/system32/bitcoin/test/functional/feature_rbf.py", line 544, in test_rpc
+    frawtx2a = self.nodes[0].fundrawtransaction(rawtx2, {"replaceable": True})
+  File "/mnt/c/Windows/system32/bitcoin/test/functional/test_framework/coverage.py", line 49, in __call__
+    return_val = self.auth_service_proxy_instance.__call__(*args, **kwargs)
+  File "/mnt/c/Windows/system32/bitcoin/test/functional/test_framework/authproxy.py", line 144, in __call__
+    raise JSONRPCException(response['error'], status)
+test_framework.authproxy.JSONRPCException: Insufficient funds (-4)
+2021-11-26T11:35:29.114000Z TestFramework (INFO): Stopping nodes
+2021-11-26T11:35:32.879000Z TestFramework (WARNING): Not cleaning up dir /tmp/test_runner_₿_🏃_20211126_120440/feature_rbf_97
+2021-11-26T11:35:32.879000Z TestFramework (ERROR): Test failed. Test logging available at /tmp/test_runner_₿_🏃_20211126_120440/feature_rbf_97/test_framework.log
+2021-11-26T11:35:32.879000Z TestFramework (ERROR):
+2021-11-26T11:35:32.889000Z TestFramework (ERROR): Hint: Call /mnt/c/Windows/system32/bitcoin/test/functional/combine_logs.py '/tmp/test_runner_₿_🏃_20211126_120440/feature_rbf_97' to consolidate all logs
+2021-11-26T11:35:32.890000Z TestFramework (ERROR):
+2021-11-26T11:35:32.890000Z TestFramework (ERROR): If this failure happened unexpectedly or intermittently, please file a bug and provide a link or upload of the combined log.
+2021-11-26T11:35:32.890000Z TestFramework (ERROR): https://github.com/bitcoin/bitcoin/issues
+2021-11-26T11:35:32.890000Z TestFramework (ERROR):
+
+
+stderr:
+
+
+129/226 - rpc_createmultisig.py --legacy-wallet skipped
+130/226 - mempool_packages.py passed, Duration: 21 s
+131/226 - mempool_package_onemore.py passed, Duration: 11 s
+132/226 - rpc_packages.py passed, Duration: 13 s
+133/226 - mempool_package_limits.py passed, Duration: 18 s
+134/226 - rpc_createmultisig.py --descriptors passed, Duration: 43 s
+135/226 - rpc_preciousblock.py passed, Duration: 20 s
+136/226 - feature_versionbits_warning.py passed, Duration: 32 s
+137/226 - wallet_importprunedfunds.py --legacy-wallet skipped138/226 - p2p_leak_tx.py passed, Duration: 14 s
+139/226 - wallet_importprunedfunds.py --descriptors passed, Duration: 25 s
+140/226 - p2p_eviction.py passed, Duration: 14 s
+141/226 - wallet_signmessagewithaddress.py passed, Duration: 10 s
+142/226 - rpc_signmessagewithprivkey.py passed, Duration: 10 s
+143/226 - wallet_balance.py --legacy-wallet skipped
+144/226 - rpc_generateblock.py passed, Duration: 11 s
+145/226 - feature_nulldummy.py --legacy-wallet skipped
+146/226 - rpc_generate.py passed, Duration: 9 s
+147/226 - feature_nulldummy.py --descriptors passed, Duration: 11 s
+148/226 - mempool_accept.py passed, Duration: 21 s
+149/226 - wallet_balance.py --descriptors passed, Duration: 27 s
+150/226 - wallet_import_rescan.py --legacy-wallet skipped
+151/226 - wallet_import_with_label.py --legacy-wallet skipped152/226 - wallet_upgradewallet.py --legacy-wallet skipped
+153/226 - mempool_expiry.py passed, Duration: 22 s
+154/226 - rpc_bind.py --ipv4 passed, Duration: 34 s
+155/226 - wallet_importdescriptors.py --descriptors passed, Duration: 47 s
+156/226 - rpc_bind.py --ipv6 passed, Duration: 42 s
+157/226 - feature_signet.py passed, Duration: 28 s
+158/226 - wallet_bumpfee.py --legacy-wallet skipped
+159/226 - mining_basic.py passed, Duration: 41 s
+160/226 - wallet_implicitsegwit.py --legacy-wallet skipped
+161/226 - rpc_bind.py --nonloopback passed, Duration: 56 s
+162/226 - wallet_listsinceblock.py --legacy-wallet skipped
+163/226 - rpc_named_arguments.py passed, Duration: 9 s
+164/226 - wallet_listdescriptors.py --descriptors passed, Duration: 13 s
+165/226 - wallet_listsinceblock.py --descriptors passed, Duration: 34 s
+166/226 - p2p_leak.py passed, Duration: 15 s
+167/226 - wallet_encryption.py --legacy-wallet skipped
+168/226 - feature_dersig.py passed, Duration: 9 s
+169/226 - wallet_encryption.py --descriptors passed, Duration: 14 s
+170/226 - feature_cltv.py passed, Duration: 11 s
+171/226 - rpc_uptime.py passed, Duration: 7 s
+172/226 - wallet_resendwallettransactions.py --legacy-wallet skipped
+173/226 - wallet_fallbackfee.py --legacy-wallet skipped
+174/226 - wallet_fallbackfee.py --descriptors passed, Duration: 11 s
+175/226 - wallet_resendwallettransactions.py --descriptors passed, Duration: 17 s
+176/226 - rpc_dumptxoutset.py passed, Duration: 10 s
+177/226 - feature_minchainwork.py passed, Duration: 13 s
+178/226 - rpc_estimatefee.py passed, Duration: 9 s
+179/226 - wallet_create_tx.py --legacy-wallet skipped
+180/226 - wallet_send.py --legacy-wallet skipped
+181/226 - rpc_getblockstats.py passed, Duration: 10 s
+182/226 - wallet_bumpfee.py --descriptors passed, Duration: 125 s
+183/226 - wallet_send.py --descriptors passed, Duration: 33 s184/226 - p2p_fingerprint.py passed, Duration: 10 s
+185/226 - wallet_create_tx.py --descriptors passed, Duration: 46 s
+186/226 - wallet_taproot.py passed, Duration: 33 s
+187/226 - wallet_coinbase_category.py --legacy-wallet skipped188/226 - feature_uacomment.py passed, Duration: 17 s
+189/226 - wallet_coinbase_category.py --descriptors passed, Duration: 10 s
+190/226 - feature_filelock.py passed, Duration: 10 s
+191/226 - feature_loadblock.py passed, Duration: 17 s
+192/226 - p2p_dos_header_tree.py passed, Duration: 18 s
+193/226 - p2p_add_connections.py passed, Duration: 24 s
+194/226 - p2p_unrequested_blocks.py passed, Duration: 13 s
+195/226 - p2p_message_capture.py passed, Duration: 6 s
+196/226 - p2p_blockfilters.py passed, Duration: 31 s
+197/226 - feature_includeconf.py passed, Duration: 23 s
+198/226 - feature_addrman.py passed, Duration: 23 s
+199/226 - mempool_compatibility.py skipped
+200/226 - mempool_accept_wtxid.py passed, Duration: 22 s
+201/226 - mempool_unbroadcast.py passed, Duration: 37 s
+202/226 - rpc_deriveaddresses.py passed, Duration: 10 s
+203/226 - p2p_ping.py passed, Duration: 9 s
+204/226 - rpc_deriveaddresses.py --usecli passed, Duration: 10 s
+205/226 - feature_txindex_compatibility.py skipped
+206/226 - feature_asmap.py passed, Duration: 69 s
+207/226 - feature_anchors.py passed, Duration: 20 s
+208/226 - feature_logging.py passed, Duration: 54 s
+209/226 - wallet_orphanedreward.py passed, Duration: 18 s
+210/226 - feature_coinstatsindex.py failed, Duration: 36 s
+
+stdout:
+2021-11-26T11:43:55.797000Z TestFramework (INFO): Initializing test directory /tmp/test_runner_₿_🏃_20211126_120440/feature_coinstatsindex_15
+2021-11-26T11:44:05.411000Z TestFramework (INFO): Test that gettxoutsetinfo() output is consistent with or without coinstatsindex option
+2021-11-26T11:44:10.742000Z TestFramework (INFO): Test that gettxoutsetinfo() can get fetch data on specific heights with index
+2021-11-26T11:44:21.490000Z TestFramework (INFO): Test gettxoutsetinfo() with index and verbose flag
+2021-11-26T11:44:27.317000Z TestFramework (ERROR): Assertion failed
+Traceback (most recent call last):
+  File "/mnt/c/Windows/system32/bitcoin/test/functional/test_framework/test_framework.py", line 132, in main
+    self.run_test()
+  File "/mnt/c/Windows/system32/bitcoin/test/functional/feature_coinstatsindex.py", line 51, in run_test
+    self._test_coin_stats_index()
+  File "/mnt/c/Windows/system32/bitcoin/test/functional/feature_coinstatsindex.py", line 176, in _test_coin_stats_index
+    assert_equal(res6['block_info'], {
+  File "/mnt/c/Windows/system32/bitcoin/test/functional/test_framework/util.py", line 50, in assert_equal
+    raise AssertionError("not(%s)" % " == ".join(str(arg) for arg in (thing1, thing2) + args))
+AssertionError: not({'prevout_spent': Decimal('111.00000000'), 'coinbase': Decimal('50.01006620'), 'new_outputs_ex_coinbase': Decimal('89.99993380'), 'unspendable': Decimal('20.99000000'), 'unspendables': {'genesis_block': Decimal('0E-8'), 'bip30': Decimal('0E-8'), 'scripts': Decimal('20.99000000'), 'unclaimed_rewards': Decimal('0E-8')}} == {'unspendable': Decimal('20.99000000'), 'prevout_spent': 111, 'new_outputs_ex_coinbase': Decimal('89.99993620'), 'coinbase': Decimal('50.01006380'), 'unspendables': {'genesis_block': 0, 'bip30': 0, 'scripts': Decimal('20.99000000'), 'unclaimed_rewards': 0}})
+2021-11-26T11:44:27.385000Z TestFramework (INFO): Stopping nodes
+2021-11-26T11:44:31.200000Z TestFramework (WARNING): Not cleaning up dir /tmp/test_runner_₿_🏃_20211126_120440/feature_coinstatsindex_15
+2021-11-26T11:44:31.200000Z TestFramework (ERROR): Test failed. Test logging available at /tmp/test_runner_₿_🏃_20211126_120440/feature_coinstatsindex_15/test_framework.log
+2021-11-26T11:44:31.200000Z TestFramework (ERROR):
+2021-11-26T11:44:31.208000Z TestFramework (ERROR): Hint: Call /mnt/c/Windows/system32/bitcoin/test/functional/combine_logs.py '/tmp/test_runner_₿_🏃_20211126_120440/feature_coinstatsindex_15' to consolidate all logs
+2021-11-26T11:44:31.208000Z TestFramework (ERROR):
+2021-11-26T11:44:31.208000Z TestFramework (ERROR): If this failure happened unexpectedly or intermittently, please file a bug and provide a link or upload of the combined log.
+2021-11-26T11:44:31.208000Z TestFramework (ERROR): https://github.com/bitcoin/bitcoin/issues
+2021-11-26T11:44:31.208000Z TestFramework (ERROR):
+
+
+stderr:
+
+
+211/226 - rpc_scantxoutset.py passed, Duration: 94 s
+212/226 - p2p_node_network_limited.py passed, Duration: 21 s
+213/226 - feature_blocksdir.py passed, Duration: 21 s
+214/226 - p2p_i2p_ports.py passed, Duration: 14 s
+215/226 - wallet_startup.py passed, Duration: 45 s
+216/226 - feature_presegwit_node_upgrade.py passed, Duration: 24 s
+217/226 - feature_config_args.py failed, Duration: 48 s
+
+stdout:
+2021-11-26T11:45:22.941000Z TestFramework (INFO): Initializing test directory /tmp/test_runner_₿_🏃_20211126_120440/feature_config_args_8
+2021-11-26T11:45:42.262000Z TestFramework (INFO): Test config args logging
+2021-11-26T11:45:46.337000Z TestFramework (INFO): Test seed peers
+2021-11-26T11:46:05.301000Z TestFramework (ERROR): Assertion failed
+Traceback (most recent call last):
+  File "/mnt/c/Windows/system32/bitcoin/test/functional/test_framework/test_framework.py", line 132, in main
+    self.run_test()
+  File "/mnt/c/Windows/system32/bitcoin/test/functional/feature_config_args.py", line 229, in run_test
+    self.test_seed_peers()
+  File "/mnt/c/Windows/system32/bitcoin/test/functional/feature_config_args.py", line 191, in test_seed_peers
+    self.start_node(0, extra_args=['-dnsseed=0', '-fixedseeds=1'])
+  File "/usr/lib/python3.8/contextlib.py", line 120, in __exit__
+    next(self.gen)
+  File "/mnt/c/Windows/system32/bitcoin/test/functional/test_framework/test_node.py", line 412, in assert_debug_log
+    self._raise_assertion_error('Expected messages "{}" does not partially match log:\n\n{}\n\n'.format(str(expected_msgs), print_log))
+  File "/mnt/c/Windows/system32/bitcoin/test/functional/test_framework/test_node.py", line 166, in _raise_assertion_error
+    raise AssertionError(self._node_msg(msg))
+AssertionError: [node 0] Expected messages "['Loaded 0 addresses from peers.dat', 'DNS seeding disabled', 'Adding fixed seeds as -dnsseed=0, -addnode is not provided and all -seednode(s) attempted\n']" does not partially match log:
+
+ -
+ -
+ -
+ -
+ -
+ - 2021-11-26T11:46:00.858398Z [init] [init/common.cpp:165] [LogPackageVersion] Bitcoin Core version v22.99.0-95d19f8c1a40 (release build)
+ - 2021-11-26T11:46:00.858454Z [init] [init.cpp:643] [InitParameterInteraction] InitParameterInteraction: parameter interaction: -bind set -> setting -listen=1
+ - 2021-11-26T11:46:00.858549Z [init] [init.cpp:907] [AppInitParameterInteraction] Validating signatures for all blocks.
+ - 2021-11-26T11:46:00.858562Z [init] [init.cpp:918] [AppInitParameterInteraction] Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+ - 2021-11-26T11:46:00.858669Z [init] [init/common.cpp:29] [SetGlobals] Using the 'sse4(1way),sse41(4way),avx2(8way)' SHA256 implementation
+ - 2021-11-26T11:46:00.858683Z [init] [random.cpp:103] [ReportHardwareRand] Using RdRand as an additional entropy source
+ - 2021-11-26T11:46:00.877206Z [init] [init/common.cpp:136] [StartLogging] Default data directory /home/mobenpe/.bitcoin
+ - 2021-11-26T11:46:00.877224Z [init] [init/common.cpp:137] [StartLogging] Using data directory /tmp/test_runner_₿_🏃_20211126_120440/feature_config_args_8/node0/regtest
+ - 2021-11-26T11:46:00.877246Z [init] [init/common.cpp:142] [StartLogging] Config file: /tmp/test_runner_₿_🏃_20211126_120440/feature_config_args_8/node0/bitcoin.conf
+ - 2021-11-26T11:46:00.877277Z [init] [util/system.cpp:1047] [logArgsPrefix] Config file arg: regtest="1"
+ - 2021-11-26T11:46:00.877293Z [init] [util/system.cpp:1047] [logArgsPrefix] Config file arg: [regtest] bind="127.0.0.1"
+ - 2021-11-26T11:46:00.877306Z [init] [util/system.cpp:1047] [logArgsPrefix] Config file arg: [regtest] discover="0"
+ - 2021-11-26T11:46:00.877318Z [init] [util/system.cpp:1047] [logArgsPrefix] Config file arg: [regtest] dnsseed="0"
+ - 2021-11-26T11:46:00.877330Z [init] [util/system.cpp:1047] [logArgsPrefix] Config file arg: [regtest] fallbackfee="0.0002"
+ - 2021-11-26T11:46:00.877341Z [init] [util/system.cpp:1047] [logArgsPrefix] Config file arg: [regtest] fixedseeds="0"
+ - 2021-11-26T11:46:00.877353Z [init] [util/system.cpp:1047] [logArgsPrefix] Config file arg: [regtest] keypool="1"
+ - 2021-11-26T11:46:00.877365Z [init] [util/system.cpp:1047] [logArgsPrefix] Config file arg: [regtest] listenonion="0"
+ - 2021-11-26T11:46:00.877379Z [init] [util/system.cpp:1047] [logArgsPrefix] Config file arg: [regtest] natpmp="0"
+ - 2021-11-26T11:46:00.877391Z [init] [util/system.cpp:1047] [logArgsPrefix] Config file arg: [regtest] peertimeout="999999"
+ - 2021-11-26T11:46:00.877403Z [init] [util/system.cpp:1047] [logArgsPrefix] Config file arg: [regtest] port="11096"
+ - 2021-11-26T11:46:00.877415Z [init] [util/system.cpp:1047] [logArgsPrefix] Config file arg: [regtest] printtoconsole="0" - 2021-11-26T11:46:00.877428Z [init] [util/system.cpp:1047] [logArgsPrefix] Config file arg: [regtest] rpcport="16096"
+ - 2021-11-26T11:46:00.877470Z [init] [util/system.cpp:1047] [logArgsPrefix] Config file arg: [regtest] server="1"
+ - 2021-11-26T11:46:00.877490Z [init] [util/system.cpp:1047] [logArgsPrefix] Config file arg: [regtest] shrinkdebugfile="0"
+ - 2021-11-26T11:46:00.877504Z [init] [util/system.cpp:1047] [logArgsPrefix] Config file arg: [regtest] unsafesqlitesync="1"
+ - 2021-11-26T11:46:00.877517Z [init] [util/system.cpp:1047] [logArgsPrefix] Config file arg: [regtest] upnp="0"
+ - 2021-11-26T11:46:00.877530Z [init] [util/system.cpp:1047] [logArgsPrefix] Command-line arg: datadir="/tmp/test_runner_₿_ 🏃_20211126_120440/feature_config_args_8/node0"
+ - 2021-11-26T11:46:00.877543Z [init] [util/system.cpp:1047] [logArgsPrefix] Command-line arg: debug=""
+ - 2021-11-26T11:46:00.877556Z [init] [util/system.cpp:1047] [logArgsPrefix] Command-line arg: debugexclude="libevent"
+ - 2021-11-26T11:46:00.877568Z [init] [util/system.cpp:1047] [logArgsPrefix] Command-line arg: debugexclude="leveldb"
+ - 2021-11-26T11:46:00.877580Z [init] [util/system.cpp:1047] [logArgsPrefix] Command-line arg: dnsseed="0"
+ - 2021-11-26T11:46:00.877591Z [init] [util/system.cpp:1047] [logArgsPrefix] Command-line arg: fixedseeds="1"
+ - 2021-11-26T11:46:00.877604Z [init] [util/system.cpp:1047] [logArgsPrefix] Command-line arg: logsourcelocations=""
+ - 2021-11-26T11:46:00.877616Z [init] [util/system.cpp:1047] [logArgsPrefix] Command-line arg: logthreadnames=""
+ - 2021-11-26T11:46:00.877628Z [init] [util/system.cpp:1047] [logArgsPrefix] Command-line arg: logtimemicros=""
+ - 2021-11-26T11:46:00.877640Z [init] [util/system.cpp:1047] [logArgsPrefix] Command-line arg: uacomment="testnode0"
+ - 2021-11-26T11:46:00.877654Z [init] [init.cpp:1122] [AppInitMain] Using at most 125 automatic connections (1024 file descriptors available)
+ - 2021-11-26T11:46:00.895928Z [init] [script/sigcache.cpp:101] [InitSignatureCache] Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements
+ - 2021-11-26T11:46:00.913403Z [init] [validation.cpp:1333] [InitScriptExecutionCache] Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements
+ - 2021-11-26T11:46:00.913496Z [init] [init.cpp:1149] [AppInitMain] Script verification uses 3 additional threads
+ - 2021-11-26T11:46:00.914421Z [scheduler] [util/thread.cpp:17] [TraceThread] scheduler thread start
+ - 2021-11-26T11:46:00.919411Z [init] [httpserver.cpp:181] [InitHTTPAllowList] Allowing HTTP connections from: 127.0.0.0/8 ::1/128
+ - 2021-11-26T11:46:00.919520Z [init] [httpserver.cpp:318] [HTTPBindAddresses] Binding RPC on address ::1 port 16096
+ - 2021-11-26T11:46:00.919628Z [init] [httpserver.cpp:318] [HTTPBindAddresses] Binding RPC on address 127.0.0.1 port 16096 - 2021-11-26T11:46:00.919689Z [init] [httpserver.cpp:390] [InitHTTPServer] Initialized HTTP server
+ - 2021-11-26T11:46:00.919700Z [init] [httpserver.cpp:392] [InitHTTPServer] HTTP: creating work queue of depth 16
+ - 2021-11-26T11:46:00.919708Z [init] [rpc/server.cpp:292] [StartRPC] Starting RPC
+ - 2021-11-26T11:46:00.919722Z [init] [httprpc.cpp:294] [StartHTTPRPC] Starting HTTP RPC server
+ - 2021-11-26T11:46:00.919731Z [init] [httprpc.cpp:246] [InitRPCAuthentication] Using random cookie authentication.
+ - 2021-11-26T11:46:00.919825Z [init] [rpc/request.cpp:101] [GenerateAuthCookie] Generated RPC authentication cookie /tmp/test_runner_₿_🏃_20211126_120440/feature_config_args_8/node0/regtest/.cookie
+ - 2021-11-26T11:46:00.919839Z [init] [httpserver.cpp:634] [RegisterHTTPHandler] Registering HTTP handler for / (exactmatch 1)
+ - 2021-11-26T11:46:00.919847Z [init] [httpserver.cpp:634] [RegisterHTTPHandler] Registering HTTP handler for /wallet/ (exactmatch 0)
+ - 2021-11-26T11:46:00.919856Z [init] [httpserver.cpp:420] [StartHTTPServer] Starting HTTP server
+ - 2021-11-26T11:46:00.919863Z [init] [httpserver.cpp:422] [StartHTTPServer] HTTP: starting 4 worker threads
+ - 2021-11-26T11:46:00.919993Z [http] [httpserver.cpp:284] [ThreadHTTP] Entering http event loop
+ - 2021-11-26T11:46:00.920097Z [init] [wallet/load.cpp:46] [VerifyWallets] Using wallet directory /tmp/test_runner_₿_🏃_20211126_120440/feature_config_args_8/node0/regtest/wallets
+ - 2021-11-26T11:46:00.920124Z [init] [noui.cpp:56] [noui_InitMessage] init message: Verifying wallet(s)…
+ - 2021-11-26T11:46:00.920179Z [init] [init.cpp:1240] [AppInitMain] Using /16 prefix for IP bucketing
+ - 2021-11-26T11:46:00.920194Z [init] [noui.cpp:56] [noui_InitMessage] init message: Loading P2P addresses…
+ - 2021-11-26T11:46:00.920530Z [init] [logging/timer.h:57] [Log] CheckAddrman: new 0, tried 0, total 0 started
+ - 2021-11-26T11:46:00.920640Z [init] [logging/timer.h:57] [Log] CheckAddrman: completed (0.09ms)
+ - 2021-11-26T11:46:00.920658Z [init] [addrdb.cpp:193] [LoadAddrman] Loaded 0 addresses from peers.dat  0ms
+ - 2021-11-26T11:46:00.920961Z [init] [noui.cpp:56] [noui_InitMessage] init message: Loading banlist…
+ - 2021-11-26T11:46:00.921008Z [init] [banman.cpp:24] [BanMan] Loaded 0 banned node addresses/subnets  1ms
+ - 2021-11-26T11:46:00.921031Z [init] [net.cpp:1804] [SetTryNewOutboundPeer] net: setting try another outbound peer=false
+ - 2021-11-26T11:46:00.921041Z [init] [net.cpp:2455] [SetNetworkActive] SetNetworkActive: true
+ - 2021-11-26T11:46:00.922724Z [init] [policy/fees.cpp:439] [Read] Reading estimates: 190 buckets counting confirms up to 48 blocks
+ - 2021-11-26T11:46:00.922917Z [init] [policy/fees.cpp:439] [Read] Reading estimates: 190 buckets counting confirms up to 12 blocks
+ - 2021-11-26T11:46:00.923543Z [init] [policy/fees.cpp:439] [Read] Reading estimates: 190 buckets counting confirms up to 1008 blocks
+ - 2021-11-26T11:46:00.924523Z [init] [init.cpp:1395] [AppInitMain] Cache configuration:
+ - 2021-11-26T11:46:00.924545Z [init] [init.cpp:1396] [AppInitMain] * Using 2.0 MiB for block index database
+ - 2021-11-26T11:46:00.924554Z [init] [init.cpp:1404] [AppInitMain] * Using 8.0 MiB for chain state database
+ - 2021-11-26T11:46:00.924564Z [init] [init.cpp:1405] [AppInitMain] * Using 440.0 MiB for in-memory UTXO set (plus up to 286.1 MiB of unused mempool space)
+ - 2021-11-26T11:46:00.924574Z [init] [noui.cpp:56] [noui_InitMessage] init message: Loading block index…
+ - 2021-11-26T11:46:00.924586Z [init] [validation.cpp:4729] [InitializeChainstate] Switching active chainstate to Chainstate [ibd] @ height -1 (null)
+ - 2021-11-26T11:46:00.924620Z [init] [dbwrapper.cpp:137] [CDBWrapper] Opening LevelDB in /tmp/test_runner_₿_🏃_20211126_120440/feature_config_args_8/node0/regtest/blocks/index
+ - 2021-11-26T11:46:01.001397Z [http] [httpserver.cpp:237] [http_request_cb] Received a POST request for / from 127.0.0.1:37684
+ - 2021-11-26T11:46:01.001541Z [httpworker.1] [rpc/request.cpp:174] [parse] ThreadRPCServer method=getblockcount user=__cookie__
+ - 2021-11-26T11:46:01.253140Z [http] [httpserver.cpp:237] [http_request_cb] Received a POST request for / from 127.0.0.1:37690
+ - 2021-11-26T11:46:01.253275Z [httpworker.2] [rpc/request.cpp:174] [parse] ThreadRPCServer method=getblockcount user=__cookie__
+ - 2021-11-26T11:46:01.504713Z [http] [httpserver.cpp:237] [http_request_cb] Received a POST request for / from 127.0.0.1:37696
+ - 2021-11-26T11:46:01.518104Z [httpworker.3] [rpc/request.cpp:174] [parse] ThreadRPCServer method=getblockcount user=__cookie__
+ - 2021-11-26T11:46:01.770223Z [http] [httpserver.cpp:237] [http_request_cb] Received a POST request for / from 127.0.0.1:37700
+ - 2021-11-26T11:46:01.770322Z [httpworker.0] [rpc/request.cpp:174] [parse] ThreadRPCServer method=getblockcount user=__cookie__
+ - 2021-11-26T11:46:02.022269Z [http] [httpserver.cpp:237] [http_request_cb] Received a POST request for / from 127.0.0.1:37706
+ - 2021-11-26T11:46:02.022365Z [httpworker.1] [rpc/request.cpp:174] [parse] ThreadRPCServer method=getblockcount user=__cookie__
+ - 2021-11-26T11:46:02.274653Z [http] [httpserver.cpp:237] [http_request_cb] Received a POST request for / from 127.0.0.1:37714
+ - 2021-11-26T11:46:02.274717Z [httpworker.2] [rpc/request.cpp:174] [parse] ThreadRPCServer method=getblockcount user=__cookie__
+ - 2021-11-26T11:46:02.526633Z [http] [httpserver.cpp:237] [http_request_cb] Received a POST request for / from 127.0.0.1:37718
+ - 2021-11-26T11:46:02.526748Z [httpworker.3] [rpc/request.cpp:174] [parse] ThreadRPCServer method=getblockcount user=__cookie__
+ - 2021-11-26T11:46:02.778652Z [http] [httpserver.cpp:237] [http_request_cb] Received a POST request for / from 127.0.0.1:37724
+ - 2021-11-26T11:46:02.778716Z [httpworker.0] [rpc/request.cpp:174] [parse] ThreadRPCServer method=getblockcount user=__cookie__
+ - 2021-11-26T11:46:03.030743Z [http] [httpserver.cpp:237] [http_request_cb] Received a POST request for / from 127.0.0.1:37730
+ - 2021-11-26T11:46:03.030836Z [httpworker.1] [rpc/request.cpp:174] [parse] ThreadRPCServer method=getblockcount user=__cookie__
+ - 2021-11-26T11:46:03.282853Z [http] [httpserver.cpp:237] [http_request_cb] Received a POST request for / from 127.0.0.1:37736
+ - 2021-11-26T11:46:03.282933Z [httpworker.2] [rpc/request.cpp:174] [parse] ThreadRPCServer method=getblockcount user=__cookie__
+ - 2021-11-26T11:46:03.534853Z [http] [httpserver.cpp:237] [http_request_cb] Received a POST request for / from 127.0.0.1:37742
+ - 2021-11-26T11:46:03.534936Z [httpworker.3] [rpc/request.cpp:174] [parse] ThreadRPCServer method=getblockcount user=__cookie__
+ - 2021-11-26T11:46:03.553756Z [init] [dbwrapper.cpp:145] [CDBWrapper] Opened LevelDB successfully
+ - 2021-11-26T11:46:03.553911Z [init] [dbwrapper.cpp:170] [CDBWrapper] Using obfuscation key for /tmp/test_runner_₿_🏃_20211126_120440/feature_config_args_8/node0/regtest/blocks/index: 0000000000000000
+ - 2021-11-26T11:46:03.554038Z [init] [validation.cpp:3763] [LoadBlockIndexDB] LoadBlockIndexDB: last block file = 0
+ - 2021-11-26T11:46:03.554073Z [init] [validation.cpp:3767] [LoadBlockIndexDB] LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=1, size=293, heights=0...0, time=2011-02-02...2011-02-02)
+ - 2021-11-26T11:46:03.554111Z [init] [validation.cpp:3778] [LoadBlockIndexDB] Checking all blk files are present...
+ - 2021-11-26T11:46:03.554178Z [init] [dbwrapper.cpp:137] [CDBWrapper] Opening LevelDB in /tmp/test_runner_₿_🏃_20211126_120440/feature_config_args_8/node0/regtest/chainstate
+ - 2021-11-26T11:46:03.786838Z [http] [httpserver.cpp:237] [http_request_cb] Received a POST request for / from 127.0.0.1:37748
+ - 2021-11-26T11:46:03.786907Z [httpworker.0] [rpc/request.cpp:174] [parse] ThreadRPCServer method=getblockcount user=__cookie__
+ - 2021-11-26T11:46:04.038921Z [http] [httpserver.cpp:237] [http_request_cb] Received a POST request for / from 127.0.0.1:37752
+ - 2021-11-26T11:46:04.039053Z [httpworker.1] [rpc/request.cpp:174] [parse] ThreadRPCServer method=getblockcount user=__cookie__
+ - 2021-11-26T11:46:04.291071Z [http] [httpserver.cpp:237] [http_request_cb] Received a POST request for / from 127.0.0.1:37758
+ - 2021-11-26T11:46:04.291161Z [httpworker.2] [rpc/request.cpp:174] [parse] ThreadRPCServer method=getblockcount user=__cookie__
+ - 2021-11-26T11:46:04.543268Z [http] [httpserver.cpp:237] [http_request_cb] Received a POST request for / from 127.0.0.1:37766
+ - 2021-11-26T11:46:04.543365Z [httpworker.3] [rpc/request.cpp:174] [parse] ThreadRPCServer method=getblockcount user=__cookie__
+ - 2021-11-26T11:46:04.795085Z [http] [httpserver.cpp:237] [http_request_cb] Received a POST request for / from 127.0.0.1:37770
+ - 2021-11-26T11:46:04.795185Z [httpworker.0] [rpc/request.cpp:174] [parse] ThreadRPCServer method=getblockcount user=__cookie__
+ - 2021-11-26T11:46:05.046955Z [http] [httpserver.cpp:237] [http_request_cb] Received a POST request for / from 127.0.0.1:37774
+ - 2021-11-26T11:46:05.047042Z [httpworker.1] [rpc/request.cpp:174] [parse] ThreadRPCServer method=getblockcount user=__cookie__
+ - 2021-11-26T11:46:05.203428Z [init] [dbwrapper.cpp:145] [CDBWrapper] Opened LevelDB successfully
+ - 2021-11-26T11:46:05.203570Z [init] [dbwrapper.cpp:170] [CDBWrapper] Using obfuscation key for /tmp/test_runner_₿_🏃_20211126_120440/feature_config_args_8/node0/regtest/chainstate: 6a6dbe637ae4d93f
+ - 2021-11-26T11:46:05.203638Z [init] [validation.cpp:3836] [LoadChainTip] Loaded best chain: hashBestChain=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 date=2011-02-02T23:16:42Z progress=1.000000
+ - 2021-11-26T11:46:05.203660Z [init] [noui.cpp:56] [noui_InitMessage] init message: Verifying blocks…
+ - 2021-11-26T11:46:05.203684Z [init] [init.cpp:1584] [AppInitMain]  block index            4279ms
+ - 2021-11-26T11:46:05.203986Z [init] [init.cpp:1730] [AppInitMain] block tree size = 1
+ - 2021-11-26T11:46:05.204009Z [init] [init.cpp:1742] [AppInitMain] nBestHeight = 0
+ - 2021-11-26T11:46:05.204063Z [loadblk] [util/thread.cpp:17] [TraceThread] loadblk thread start
+ - 2021-11-26T11:46:05.204128Z [init] [net.cpp:2388] [BindListenPort] Bound to 127.0.0.1:11096
+ - 2021-11-26T11:46:05.204154Z [loadblk] [validation.cpp:4605] [LoadMempool] Imported mempool transactions from disk: 0 succeeded, 0 failed, 0 expired, 0 already there, 0 waiting for initial broadcast
+ - 2021-11-26T11:46:05.204174Z [init] [net.cpp:2385] [BindListenPort] Unable to bind to 127.0.0.1:18445 on this computer. Bitcoin Core is probably already running.
+ - 2021-11-26T11:46:05.204233Z [loadblk] [util/thread.cpp:19] [TraceThread] loadblk thread exit
+ - 2021-11-26T11:46:05.204265Z [init] [addrdb.cpp:218] [ReadAnchors] Loaded 0 addresses from "anchors.dat"
+ - 2021-11-26T11:46:05.204342Z [init] [net.cpp:2557] [Start] 0 block-relay-only anchors will be tried for connections.
+ - 2021-11-26T11:46:05.204360Z [init] [noui.cpp:56] [noui_InitMessage] init message: Starting network threads…
+ - 2021-11-26T11:46:05.204540Z [init] [net.cpp:2592] [Start] DNS seeding disabled
+ - 2021-11-26T11:46:05.204600Z [net] [util/thread.cpp:17] [TraceThread] net thread start
+ - 2021-11-26T11:46:05.204652Z [init] [noui.cpp:56] [noui_InitMessage] init message: Done loading
+ - 2021-11-26T11:46:05.204727Z [msghand] [util/thread.cpp:17] [TraceThread] msghand thread start
+ - 2021-11-26T11:46:05.204760Z [opencon] [util/thread.cpp:17] [TraceThread] opencon thread start
+ - 2021-11-26T11:46:05.204831Z [addcon] [util/thread.cpp:17] [TraceThread] addcon thread start
+ - 2021-11-26T11:46:05.298880Z [http] [httpserver.cpp:237] [http_request_cb] Received a POST request for / from 127.0.0.1:37778
+ - 2021-11-26T11:46:05.299037Z [httpworker.2] [rpc/request.cpp:174] [parse] ThreadRPCServer method=getblockcount user=__cookie__
+ - 2021-11-26T11:46:05.299771Z [http] [httpserver.cpp:237] [http_request_cb] Received a POST request for / from 127.0.0.1:37778
+ - 2021-11-26T11:46:05.299836Z [httpworker.3] [rpc/request.cpp:174] [parse] ThreadRPCServer method=getmempoolinfo user=__cookie__
+
+
+2021-11-26T11:46:05.845000Z TestFramework (INFO): Stopping nodes
+2021-11-26T11:46:10.361000Z TestFramework (WARNING): Not cleaning up dir /tmp/test_runner_₿_🏃_20211126_120440/feature_config_args_8
+2021-11-26T11:46:10.361000Z TestFramework (ERROR): Test failed. Test logging available at /tmp/test_runner_₿_🏃_20211126_120440/feature_config_args_8/test_framework.log
+2021-11-26T11:46:10.361000Z TestFramework (ERROR):
+2021-11-26T11:46:10.371000Z TestFramework (ERROR): Hint: Call /mnt/c/Windows/system32/bitcoin/test/functional/combine_logs.py '/tmp/test_runner_₿_🏃_20211126_120440/feature_config_args_8' to consolidate all logs
+2021-11-26T11:46:10.371000Z TestFramework (ERROR):
+2021-11-26T11:46:10.371000Z TestFramework (ERROR): If this failure happened unexpectedly or intermittently, please file a bug and provide a link or upload of the combined log.
+2021-11-26T11:46:10.371000Z TestFramework (ERROR): https://github.com/bitcoin/bitcoin/issues
+2021-11-26T11:46:10.371000Z TestFramework (ERROR):
+
+
+stderr:
+
+
+218/226 - rpc_getdescriptorinfo.py passed, Duration: 9 s
+219/226 - p2p_permissions.py passed, Duration: 119 s
+220/226 - feature_help.py passed, Duration: 1 s
+221/226 - feature_settings.py passed, Duration: 40 s
+222/226 - rpc_help.py passed, Duration: 18 s
+Remaining jobs: [feature_dbcrash.py, feature_shutdown.py, p2p_ibd_txrelay.py, feature_blockfilterindex_prune.py]
+223/226 - feature_shutdown.py passed, Duration: 10 s
+Remaining jobs: [feature_dbcrash.py, p2p_ibd_txrelay.py, feature_blockfilterindex_prune.py]
+224/226 - p2p_ibd_txrelay.py passed, Duration: 8 s
+Remaining jobs: [feature_dbcrash.py, feature_blockfilterindex_prune.py]
+225/226 - feature_blockfilterindex_prune.py passed, Duration: 32 s
+Remaining jobs: [feature_dbcrash.py]
+..................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  226/226 - feature_dbcrash.py passed, Duration: 3998 s
+
+TEST                                               | STATUS    | DURATION
+
+example_test.py                                    | ✓ Passed  | 14 s
+feature_abortnode.py                               | ✓ Passed  | 51 s
+feature_addrman.py                                 | ✓ Passed  | 23 s
+feature_anchors.py                                 | ✓ Passed  | 20 s
+feature_asmap.py                                   | ✓ Passed  | 69 s
+feature_assumevalid.py                             | ✓ Passed  | 31 s
+feature_bind_extra.py                              | ✓ Passed  | 20 s
+feature_bip68_sequence.py                          | ✓ Passed  | 32 s
+feature_block.py                                   | ✓ Passed  | 251 s
+feature_blockfilterindex_prune.py                  | ✓ Passed  | 32 s
+feature_blocksdir.py                               | ✓ Passed  | 21 s
+feature_cltv.py                                    | ✓ Passed  | 11 s
+feature_csv_activation.py                          | ✓ Passed  | 27 s
+feature_dbcrash.py                                 | ✓ Passed  | 3998 s
+feature_dersig.py                                  | ✓ Passed  | 9 s
+feature_fee_estimation.py                          | ✓ Passed  | 162 s
+feature_filelock.py                                | ✓ Passed  | 10 s
+feature_help.py                                    | ✓ Passed  | 1 s
+feature_includeconf.py                             | ✓ Passed  | 23 s
+feature_loadblock.py                               | ✓ Passed  | 17 s
+feature_logging.py                                 | ✓ Passed  | 54 s
+feature_maxuploadtarget.py                         | ✓ Passed  | 92 s
+feature_minchainwork.py                            | ✓ Passed  | 13 s
+feature_notifications.py                           | ✓ Passed  | 24 s
+feature_nulldummy.py --descriptors                 | ✓ Passed  | 11 s
+feature_presegwit_node_upgrade.py                  | ✓ Passed  | 24 s
+feature_proxy.py                                   | ✓ Passed  | 16 s
+feature_pruning.py                                 | ✓ Passed  | 732 s
+feature_reindex.py                                 | ✓ Passed  | 39 s
+feature_segwit.py --descriptors                    | ✓ Passed  | 59 s
+feature_settings.py                                | ✓ Passed  | 40 s
+feature_shutdown.py                                | ✓ Passed  | 10 s
+feature_signet.py                                  | ✓ Passed  | 28 s
+feature_syscall_sandbox.py                         | ✓ Passed  | 5 s
+feature_taproot.py                                 | ✓ Passed  | 139 s
+feature_uacomment.py                               | ✓ Passed  | 17 s
+feature_utxo_set_hash.py                           | ✓ Passed  | 14 s
+feature_versionbits_warning.py                     | ✓ Passed  | 32 s
+interface_http.py                                  | ✓ Passed  | 14 s
+interface_rest.py                                  | ✓ Passed  | 34 s
+interface_rpc.py                                   | ✓ Passed  | 21 s
+interface_zmq.py                                   | ✓ Passed  | 113 s
+mempool_accept.py                                  | ✓ Passed  | 21 s
+mempool_accept_wtxid.py                            | ✓ Passed  | 22 s
+mempool_expiry.py                                  | ✓ Passed  | 22 s
+mempool_limit.py                                   | ✓ Passed  | 19 s
+mempool_package_limits.py                          | ✓ Passed  | 18 s
+mempool_package_onemore.py                         | ✓ Passed  | 11 s
+mempool_packages.py                                | ✓ Passed  | 21 s
+mempool_persist.py                                 | ✓ Passed  | 87 s
+mempool_reorg.py                                   | ✓ Passed  | 25 s
+mempool_resurrect.py                               | ✓ Passed  | 10 s
+mempool_spend_coinbase.py                          | ✓ Passed  | 16 s
+mempool_unbroadcast.py                             | ✓ Passed  | 37 s
+mempool_updatefromblock.py                         | ✓ Passed  | 41 s
+mining_basic.py                                    | ✓ Passed  | 41 s
+mining_getblocktemplate_longpoll.py                | ✓ Passed  | 141 s
+mining_prioritisetransaction.py                    | ✓ Passed  | 14 s
+p2p_add_connections.py                             | ✓ Passed  | 24 s
+p2p_addr_relay.py                                  | ✓ Passed  | 33 s
+p2p_addrfetch.py                                   | ✓ Passed  | 9 s
+p2p_addrv2_relay.py                                | ✓ Passed  | 9 s
+p2p_blockfilters.py                                | ✓ Passed  | 31 s
+p2p_blocksonly.py                                  | ✓ Passed  | 37 s
+p2p_compactblocks.py                               | ✓ Passed  | 126 s
+p2p_compactblocks_blocksonly.py                    | ✓ Passed  | 97 s
+p2p_compactblocks_hb.py                            | ✓ Passed  | 25 s
+p2p_disconnect_ban.py                              | ✓ Passed  | 24 s
+p2p_dns_seeds.py                                   | ✓ Passed  | 85 s
+p2p_dos_header_tree.py                             | ✓ Passed  | 18 s
+p2p_eviction.py                                    | ✓ Passed  | 14 s
+p2p_feefilter.py                                   | ✓ Passed  | 43 s
+p2p_filter.py                                      | ✓ Passed  | 18 s
+p2p_fingerprint.py                                 | ✓ Passed  | 10 s
+p2p_getaddr_caching.py                             | ✓ Passed  | 24 s
+p2p_getdata.py                                     | ✓ Passed  | 9 s
+p2p_i2p_ports.py                                   | ✓ Passed  | 14 s
+p2p_ibd_txrelay.py                                 | ✓ Passed  | 8 s
+p2p_invalid_block.py                               | ✓ Passed  | 9 s
+p2p_invalid_locator.py                             | ✓ Passed  | 10 s
+p2p_invalid_messages.py                            | ✓ Passed  | 25 s
+p2p_invalid_tx.py                                  | ✓ Passed  | 14 s
+p2p_leak.py                                        | ✓ Passed  | 15 s
+p2p_leak_tx.py                                     | ✓ Passed  | 14 s
+p2p_message_capture.py                             | ✓ Passed  | 6 s
+p2p_nobloomfilter_messages.py                      | ✓ Passed  | 10 s
+p2p_node_network_limited.py                        | ✓ Passed  | 21 s
+p2p_permissions.py                                 | ✓ Passed  | 119 s
+p2p_ping.py                                        | ✓ Passed  | 9 s
+p2p_segwit.py                                      | ✓ Passed  | 113 s
+p2p_sendheaders.py                                 | ✓ Passed  | 30 s
+p2p_timeouts.py                                    | ✓ Passed  | 24 s
+p2p_tx_download.py                                 | ✓ Passed  | 121 s
+p2p_unrequested_blocks.py                          | ✓ Passed  | 13 s
+rpc_bind.py --ipv4                                 | ✓ Passed  | 34 s
+rpc_bind.py --ipv6                                 | ✓ Passed  | 42 s
+rpc_bind.py --nonloopback                          | ✓ Passed  | 56 s
+rpc_blockchain.py                                  | ✓ Passed  | 51 s
+rpc_createmultisig.py --descriptors                | ✓ Passed  | 43 s
+rpc_decodescript.py                                | ✓ Passed  | 10 s
+rpc_deprecated.py                                  | ✓ Passed  | 13 s
+rpc_deriveaddresses.py                             | ✓ Passed  | 10 s
+rpc_deriveaddresses.py --usecli                    | ✓ Passed  | 10 s
+rpc_dumptxoutset.py                                | ✓ Passed  | 10 s
+rpc_estimatefee.py                                 | ✓ Passed  | 9 s
+rpc_fundrawtransaction.py --descriptors            | ✓ Passed  | 74 s
+rpc_generate.py                                    | ✓ Passed  | 9 s
+rpc_generateblock.py                               | ✓ Passed  | 11 s
+rpc_getblockfilter.py                              | ✓ Passed  | 26 s
+rpc_getblockstats.py                               | ✓ Passed  | 10 s
+rpc_getchaintips.py                                | ✓ Passed  | 25 s
+rpc_getdescriptorinfo.py                           | ✓ Passed  | 9 s
+rpc_help.py                                        | ✓ Passed  | 18 s
+rpc_invalid_address_message.py                     | ✓ Passed  | 16 s
+rpc_invalidateblock.py                             | ✓ Passed  | 12 s
+rpc_misc.py                                        | ✓ Passed  | 49 s
+rpc_named_arguments.py                             | ✓ Passed  | 9 s
+rpc_net.py                                         | ✓ Passed  | 32 s
+rpc_packages.py                                    | ✓ Passed  | 13 s
+rpc_preciousblock.py                               | ✓ Passed  | 20 s
+rpc_psbt.py --descriptors                          | ✓ Passed  | 67 s
+rpc_rawtransaction.py --descriptors                | ✓ Passed  | 25 s
+rpc_scantxoutset.py                                | ✓ Passed  | 94 s
+rpc_setban.py                                      | ✓ Passed  | 45 s
+rpc_signer.py                                      | ✓ Passed  | 18 s
+rpc_signmessagewithprivkey.py                      | ✓ Passed  | 10 s
+rpc_signrawtransaction.py --descriptors            | ✓ Passed  | 15 s
+rpc_txoutproof.py                                  | ✓ Passed  | 14 s
+rpc_uptime.py                                      | ✓ Passed  | 7 s
+rpc_users.py                                       | ✓ Passed  | 39 s
+rpc_whitelist.py                                   | ✓ Passed  | 16 s
+tool_wallet.py --descriptors                       | ✓ Passed  | 199 s
+wallet_abandonconflict.py --descriptors            | ✓ Passed  | 53 s
+wallet_address_types.py --descriptors              | ✓ Passed  | 40 s
+wallet_avoidreuse.py --descriptors                 | ✓ Passed  | 74 s
+wallet_backup.py --descriptors                     | ✓ Passed  | 91 s
+wallet_balance.py --descriptors                    | ✓ Passed  | 27 s
+wallet_basic.py --descriptors                      | ✓ Passed  | 165 s
+wallet_bumpfee.py --descriptors                    | ✓ Passed  | 125 s
+wallet_coinbase_category.py --descriptors          | ✓ Passed  | 10 s
+wallet_create_tx.py --descriptors                  | ✓ Passed  | 46 s
+wallet_createwallet.py --descriptors               | ✓ Passed  | 22 s
+wallet_createwallet.py --usecli                    | ✓ Passed  | 49 s
+wallet_descriptor.py --descriptors                 | ✓ Passed  | 23 s
+wallet_disable.py --descriptors                    | ✓ Passed  | 9 s
+wallet_disable.py --legacy-wallet                  | ✓ Passed  | 9 s
+wallet_encryption.py --descriptors                 | ✓ Passed  | 14 s
+wallet_fallbackfee.py --descriptors                | ✓ Passed  | 11 s
+wallet_groups.py --descriptors                     | ✓ Passed  | 112 s
+wallet_hd.py --descriptors                         | ✓ Passed  | 35 s
+wallet_importdescriptors.py --descriptors          | ✓ Passed  | 47 s
+wallet_importprunedfunds.py --descriptors          | ✓ Passed  | 25 s
+wallet_keypool.py --descriptors                    | ✓ Passed  | 16 s
+wallet_keypool_topup.py --descriptors              | ✓ Passed  | 52 s
+wallet_labels.py --descriptors                     | ✓ Passed  | 15 s
+wallet_listdescriptors.py --descriptors            | ✓ Passed  | 13 s
+wallet_listreceivedby.py --descriptors             | ✓ Passed  | 61 s
+wallet_listsinceblock.py --descriptors             | ✓ Passed  | 34 s
+wallet_listtransactions.py --descriptors           | ✓ Passed  | 26 s
+wallet_multisig_descriptor_psbt.py                 | ✓ Passed  | 22 s
+wallet_multiwallet.py --descriptors                | ✓ Passed  | 170 s
+wallet_multiwallet.py --usecli                     | ✓ Passed  | 140 s
+wallet_orphanedreward.py                           | ✓ Passed  | 18 s
+wallet_reorgsrestore.py                            | ✓ Passed  | 45 s
+wallet_resendwallettransactions.py --descriptors   | ✓ Passed  | 17 s
+wallet_send.py --descriptors                       | ✓ Passed  | 33 s
+wallet_signer.py --descriptors                     | ✓ Passed  | 19 s
+wallet_signmessagewithaddress.py                   | ✓ Passed  | 10 s
+wallet_startup.py                                  | ✓ Passed  | 45 s
+wallet_taproot.py                                  | ✓ Passed  | 33 s
+wallet_txn_clone.py                                | ✓ Passed  | 29 s
+wallet_txn_clone.py --mineblock                    | ✓ Passed  | 22 s
+wallet_txn_clone.py --segwit                       | ✓ Passed  | 33 s
+wallet_txn_doublespend.py --descriptors            | ✓ Passed  | 20 s
+wallet_txn_doublespend.py --mineblock              | ✓ Passed  | 29 s
+feature_backwards_compatibility.py --descriptors   | ○ Skipped | 1 s
+feature_backwards_compatibility.py --legacy-wallet | ○ Skipped | 1 s
+feature_nulldummy.py --legacy-wallet               | ○ Skipped | 1 s
+feature_segwit.py --legacy-wallet                  | ○ Skipped | 68 s
+feature_taproot.py --previous_release              | ○ Skipped | 4 s
+feature_txindex_compatibility.py                   | ○ Skipped | 1 s
+mempool_compatibility.py                           | ○ Skipped | 1 s
+rpc_createmultisig.py --legacy-wallet              | ○ Skipped | 1 s
+rpc_fundrawtransaction.py --legacy-wallet          | ○ Skipped | 1 s
+rpc_psbt.py --legacy-wallet                        | ○ Skipped | 5 s
+rpc_rawtransaction.py --legacy-wallet              | ○ Skipped | 1 s
+rpc_signrawtransaction.py --legacy-wallet          | ○ Skipped | 1 s
+tool_wallet.py --legacy-wallet                     | ○ Skipped | 2 s
+wallet_abandonconflict.py --legacy-wallet          | ○ Skipped | 1 s
+wallet_address_types.py --legacy-wallet            | ○ Skipped | 1 s
+wallet_avoidreuse.py --legacy-wallet               | ○ Skipped | 1 s
+wallet_backup.py --legacy-wallet                   | ○ Skipped | 1 s
+wallet_balance.py --legacy-wallet                  | ○ Skipped | 1 s
+wallet_basic.py --legacy-wallet                    | ○ Skipped | 2 s
+wallet_bumpfee.py --legacy-wallet                  | ○ Skipped | 1 s
+wallet_coinbase_category.py --legacy-wallet        | ○ Skipped | 1 s
+wallet_create_tx.py --legacy-wallet                | ○ Skipped | 1 s
+wallet_createwallet.py --legacy-wallet             | ○ Skipped | 1 s
+wallet_dump.py --legacy-wallet                     | ○ Skipped | 3 s
+wallet_encryption.py --legacy-wallet               | ○ Skipped | 1 s
+wallet_fallbackfee.py --legacy-wallet              | ○ Skipped | 1 s
+wallet_groups.py --legacy-wallet                   | ○ Skipped | 1 s
+wallet_hd.py --legacy-wallet                       | ○ Skipped | 1 s
+wallet_implicitsegwit.py --legacy-wallet           | ○ Skipped | 1 s
+wallet_import_rescan.py --legacy-wallet            | ○ Skipped | 1 s
+wallet_import_with_label.py --legacy-wallet        | ○ Skipped | 1 s
+wallet_importmulti.py --legacy-wallet              | ○ Skipped | 1 s
+wallet_importprunedfunds.py --legacy-wallet        | ○ Skipped | 16 s
+wallet_keypool.py --legacy-wallet                  | ○ Skipped | 1 s
+wallet_keypool_topup.py --legacy-wallet            | ○ Skipped | 1 s
+wallet_labels.py --legacy-wallet                   | ○ Skipped | 1 s
+wallet_listreceivedby.py --legacy-wallet           | ○ Skipped | 1 s
+wallet_listsinceblock.py --legacy-wallet           | ○ Skipped | 1 s
+wallet_listtransactions.py --legacy-wallet         | ○ Skipped | 6 s
+wallet_multiwallet.py --legacy-wallet              | ○ Skipped | 12 s
+wallet_resendwallettransactions.py --legacy-wallet | ○ Skipped | 1 s
+wallet_send.py --legacy-wallet                     | ○ Skipped | 1 s
+wallet_txn_doublespend.py --legacy-wallet          | ○ Skipped | 1 s
+wallet_upgradewallet.py --legacy-wallet            | ○ Skipped | 2 s
+wallet_watchonly.py --legacy-wallet                | ○ Skipped | 2 s
+wallet_watchonly.py --usecli --legacy-wallet       | ○ Skipped | 1 s
+feature_coinstatsindex.py                          | ✖ Failed  | 36 s
+feature_config_args.py                             | ✖ Failed  | 48 s
+feature_rbf.py                                     | ✖ Failed  | 13 s
+interface_bitcoin_cli.py                           | ✖ Failed  | 35 s
+wallet_transactiontime_rescan.py                   | ✖ Failed  | 34 s
+
+ALL                                                | ✖ Failed  | 11492 s (accumulated)
+Runtime: 3998 s
+
+
